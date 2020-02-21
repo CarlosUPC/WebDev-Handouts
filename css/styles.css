@@ -1,3 +1,9 @@
-#site-header{
-    background-color: red;
+
+
+.site-header.inicio {
+    background: url(https://store-images.s-microsoft.com/image/apps.52108.14093887761450425.e0f5ad09-d8f5-4103-a8d8-8f25cc480b21.951dd9af-0893-4f0b-8266-fc9b57478081?mode=scale&q=90&h=1080&w=1920&format=jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
 }
