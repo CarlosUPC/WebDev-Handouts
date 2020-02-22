@@ -1,12 +1,20 @@
+
+/** CORE  **/
+
 html {
     font-size: 62.5%;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2rem;
+    background-color: #1d1c1c;
 }
-/** Globales**/
 
+/** GLOBALES **/
+
+img {
+    max-width: 100%;
+}
 .contenedor {
     max-width: 170rem;
     margin: 0 auto;
@@ -31,6 +39,8 @@ h4{
     margin-bottom: 2rem;
 }
 
+/* SECTION HEADER & NAV */
+
 .site-header.inicio {
    
     background: url(https://assets-prd.ignimgs.com/2020/01/17/doom-eternal-fire-baron-1533718919-1579287218145.png);
@@ -39,6 +49,7 @@ h4{
     height: 100vh;
     min-height: 60rem;
 }
+
 
 .contenido-header{
     height: 100%;
@@ -102,6 +113,9 @@ h4{
     margin: 0;
 }
 
+
+
+/* SECTION SITES */
 .sites-encabezado{
    
     text-align: center;
@@ -109,7 +123,7 @@ h4{
     margin-top: 8rem;
     font-family: 'Lato';
     font-size: 3.6rem;
-    color: #313131;
+    color: white;
 }
 
 .sites-info{
@@ -118,6 +132,7 @@ h4{
     font-family: 'Lato';
     font-size: 1.8rem;
     font-weight: 300;
+    color: white;
 }
 
 
@@ -138,4 +153,17 @@ h4{
     font-family: 'Lato';
     font-weight: 300;
     line-height: 3rem;
+    color: white;
+}
+
+
+/* SECTION GAMES */
+.contenedor-juegos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.juego {
+   flex-basis: calc(33.3 - 1rem); 
+   text-align: center;
 }
