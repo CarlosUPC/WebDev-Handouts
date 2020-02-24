@@ -198,26 +198,52 @@ h4{
    
    flex-basis: calc(33.3% - 1rem);
    border:1px solid #b5b5b5;
-   background-color: #f5f5f5;
+   background-color: #5f5f5f;
 
 }
 
 .contenido-juego{
+    text-align: center;
+    color: white;
     padding: 2rem;
+}
+.contenido-juego p{
+    font-size: 2rem;
 }
 
 .contenido-juego h3,
 .contenido-juego p{
     margin: 0;
+    padding-top: 2rem;
 }
 
 .precio {
     color: #71b171;
     font-weight: 700;
+    padding-top: 2rem;
 
 }
 
 .ver-todos {
     display: flex;
     justify-content: flex-end;
+}
+
+.imagen-trabajo{
+    background-image: url(../img/job-banner.jpg);
+    
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-trabajo {
+    flex: 1;
+    color: white;
+}
+
+.contenido-trabajo p {
+    font-size: 1.8rem;
 }
