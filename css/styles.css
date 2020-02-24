@@ -2,7 +2,11 @@
 /** CORE  **/
 
 html {
+    box-sizing: border-box;
     font-size: 62.5%;
+}
+*, *:before,*after{
+    box-sizing: inherit;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -51,6 +55,9 @@ h4{
 }
 
 /*BOTONES*/
+.d-block{
+    display: block!important;
+}
 
 .boton{
     color: white;
@@ -58,6 +65,9 @@ h4{
     text-decoration: none;
     font-size: 1.8rem;
     padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
 }
 
 .boton-amarillo{
@@ -184,10 +194,10 @@ h4{
 }
 
 .juego {
-   flex-basis: calc(33.3 - 1rem); 
-   text-align: center;
    
-   border:2px solid #b5b5b5;
+   
+   flex-basis: calc(33.3% - 1rem);
+   border:1px solid #b5b5b5;
    background-color: #f5f5f5;
 
 }
@@ -205,4 +215,9 @@ h4{
     color: #71b171;
     font-weight: 700;
 
+}
+
+.ver-todos {
+    display: flex;
+    justify-content: flex-end;
 }
