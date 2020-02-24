@@ -247,3 +247,43 @@ h4{
 .contenido-trabajo p {
     font-size: 1.8rem;
 }
+
+/*BLOG*/
+
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+
+.seccion-inferior .press{
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+.entrada-blog .imagen {
+    flex-basis: 40%;
+    
+
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+
+.entrada-blog .texto-entrada h4{
+    margin: 0;
+    line-height: 1.4;
+}
