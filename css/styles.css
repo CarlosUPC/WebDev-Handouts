@@ -281,9 +281,84 @@ h4{
 
 .entrada-blog .texto-entrada{
     flex-basis: calc(60% - 3rem);
+    color: white;
+    font-size: 1.8rem;
 }
 
-.entrada-blog .texto-entrada h4{
+ .texto-entrada a{
+    color: white;
+    text-decoration: none;
+}
+.texto-entrada h4{
     margin: 0;
     line-height: 1.4;
 }
+
+.texto-entrada h4::after{
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: chartreuse;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: darkgoldenrod;
+}
+
+.titulo-blog,
+.titulo-press{
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato';
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.contenedor-press{
+    background-color: #71b100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;
+    margin-left: 4rem;
+}
+
+.contenedor-press p {
+    text-align: right;
+}
+.contenedor-press blockquote::before{
+    content: '';
+    background-image: url();
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+}
+
+.contenedor-press blockquote{
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+
+/*FOOTER*/
+.site-footer{
+    background-color: #333333;
+    margin: 0;
+}
+
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    margin: 0;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
