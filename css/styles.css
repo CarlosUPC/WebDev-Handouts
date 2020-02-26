@@ -178,7 +178,7 @@ h4{
 }
 
 .icono {
-    flex-basis: calc(33.3% - 1rem);
+    flex-basis: calc(33% - 1rem);
     text-align: center;  
 
 
@@ -384,7 +384,7 @@ navegacion-footer a{
 .texto-nosotros blockquote {
     font-weight: 900;
     font-size: 3rem;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 10rem 0;
     color: gray;
 }
 
@@ -398,5 +398,26 @@ navegacion-footer a{
     font-family: 'Lato';
     text-align: center;
     font-weight: 300;
-    margin: 5rem 0 5rem 0;
+    margin: 10rem 0 5rem 0;
+}
+
+
+.estudios-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.estudio {
+    flex-basis: calc(20%);
+    text-align: center;  
+}
+
+
+.estudio h4{
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 3rem;
+    color: white;
+    margin: 0 0 3rem 0;
 }
