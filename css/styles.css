@@ -1,6 +1,6 @@
 
-/** CORE  **/
 
+/*---------------- CORE -----------------*/
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -14,8 +14,8 @@ body {
     background-color: #1d1c1c;
 }
 
-/** GLOBALES **/
 
+/*----------------  GLOBAL -----------------*/
 img {
     max-width: 100%;
 }
@@ -43,7 +43,8 @@ h4{
     margin-bottom: 2rem;
 }
 
-/* SECTION HEADER & NAV */
+
+/*----------------  WEBSITE SECTION HEADER & NAV -----------------*/
 .site-header{
     background-color: #333333;
     padding: 1rem 0 3rem 0;
@@ -60,7 +61,7 @@ h4{
     min-height: 60rem;
 }
 
-/*BOTONES*/
+/*---------------- WEBSITE BUTTONS -----------------*/
 .d-block{
     display: block!important;
 }
@@ -151,7 +152,8 @@ h4{
 
 
 
-/* SECTION SITES */
+
+/*---------------- WEBSITE SECTION SITES -----------------*/
 .sites-encabezado{
    
     text-align: center;
@@ -193,7 +195,8 @@ h4{
 }
 
 
-/* SECTION GAMES */
+
+/*---------------- WEBSITE SECTION GAMES -----------------*/
 .contenedor-juegos{
     display: flex;
     justify-content: space-between;
@@ -254,8 +257,9 @@ h4{
     font-size: 1.8rem;
 }
 
-/*BLOG*/
 
+
+/*---------------- WEBSITE BLOG -----------------*/
 .seccion-inferior {
     display: flex;
     justify-content: space-between;
@@ -349,7 +353,8 @@ h4{
     font-weight: 300;
 }
 
-/*FOOTER*/
+
+/*---------------- WEBSITE FOOTER -----------------*/
 .site-footer{
     background-color: #333333;
     margin: 0;
@@ -373,7 +378,10 @@ navegacion-footer a{
 }
 
 
-/**INTERNAS**/
+/**-------------------------------- SECONDARY ------------------------------------**/
+
+
+/*---------------- ABOUT US -----------------*/
 
 .contenido-nosotros {
     display: grid;
@@ -423,7 +431,7 @@ navegacion-footer a{
 }
 
 
-
+/*---------------- BLOG -----------------*/
 .contenido-blog h1 {
     text-transform: uppercase;
     font-family: 'Lato';
@@ -456,3 +464,11 @@ navegacion-footer a{
     color: white;
     font-size: 1.8rem;
 }
+
+
+/*---------------- GAMES -----------------*/
+
+
+
+
+/*----------------- BLOG ------------------*/
