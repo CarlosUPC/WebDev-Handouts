@@ -279,9 +279,9 @@ h4{
     margin-bottom: 0;
 }
 
+
 .entrada-blog .imagen {
     flex-basis: 40%;
-    
 
 }
 
@@ -291,7 +291,7 @@ h4{
     font-size: 1.8rem;
 }
 
- .texto-entrada a{
+.texto-entrada a{
     color: white;
     text-decoration: none;
 }
@@ -420,4 +420,39 @@ navegacion-footer a{
     line-height: 3rem;
     color: white;
     margin: 0 0 3rem 0;
+}
+
+
+
+.contenido-blog h1 {
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 3rem;
+    color: white;
+    text-align: center;
+    margin: 5rem 0 10rem 0;
+
+}
+
+.pagina-blog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.pagina-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+
+.pagina-blog .imagen {
+    flex-basis: 30%;
+
+}
+
+.pagina-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+    color: white;
+    font-size: 1.8rem;
 }
