@@ -283,7 +283,7 @@ h4{
 
 .entrada-blog{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 2rem;
 }
 
@@ -293,7 +293,8 @@ h4{
 
 
 .entrada-blog .imagen {
-    flex-basis: 40%;
+    flex-basis: 25%;
+    margin-right: 4rem;
 
 }
 
