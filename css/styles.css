@@ -619,6 +619,9 @@ navegacion-footer a{
     color: white;
 }
 
+.multimedia-video {
+   text-align: center;
+}
 
 .imagenes-multimedia {
     display: flex;
