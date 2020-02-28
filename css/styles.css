@@ -530,4 +530,53 @@ navegacion-footer a{
    
 }
 
-/*----------------- PRESS KIT ------------------*/
+/*----------------- DOOM ETERNAL (LANDING PAGE) ------------------*/
+
+.site-header.lp-inicio {
+   
+    background: url(https://arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/2WAWYRXY7JGDRDGVBZ36EI4KRI.jpg);
+    background-position: center + 2rem center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.icono-barra {
+
+}
+
+.icono-barra::after{
+    content: '';
+    display: inline-block;
+    width: .2rem;
+    height: 4rem;
+    background-color: white;
+   margin: 1rem 1rem 0 1.8rem;
+}
+
+.portada-botones {
+    text-align: center;
+}
+
+.portada-botones a {
+    margin: 0 2rem 0 2rem;
+    width: 10%;
+    padding: 2.5rem;
+}
+
+.boton-blanco{
+    color: black;
+    font-weight: 400;
+    font-family: 'Oswald';
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+
+
