@@ -635,9 +635,13 @@ navegacion-footer a{
 
 .img-multimedia {
     flex-basis: calc(22.8% - 1rem);
-    
+    ;
 
 
+}
+.img-multimedia img{
+    object-fit: cover;
+    object-position: center;
 }
 
 .img-multimedia-centro {
