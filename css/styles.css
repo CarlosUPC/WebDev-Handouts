@@ -577,6 +577,8 @@ navegacion-footer a{
     margin-top: 3rem;
     display: inline-block;
     text-align: center;
+    box-shadow: 3px 3px 15px rgba(255, 0, 0, 0.7);
+    
 }
 .boton-intro:hover{
     background-color: red;
