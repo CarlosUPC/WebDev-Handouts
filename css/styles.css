@@ -561,10 +561,25 @@ navegacion-footer a{
     text-align: center;
 }
 
+
 .portada-botones a {
     margin: 0 2rem 0 2rem;
     width: 10%;
     padding: 2.5rem;
+}
+
+.boton-intro{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+}
+.boton-intro:hover{
+    background-color: red;
 }
 
 .boton-blanco{
@@ -578,7 +593,11 @@ navegacion-footer a{
     display: inline-block;
     text-align: center;
     background-color: whitesmoke;
+    
+}
 
+.boton-blanco:hover{
+    color: white;
 }
 
 .imagen-intro {
