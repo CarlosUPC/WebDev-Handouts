@@ -644,6 +644,12 @@ navegacion-footer a{
     object-position: center;
 }
 
+.img-multimedia-centro:hover,
+.img-multimedia img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.05);
+}
+
 .img-multimedia-centro {
     flex-basis: calc(45% - 1rem);
     
