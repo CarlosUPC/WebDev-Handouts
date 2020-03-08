@@ -812,11 +812,12 @@ input[name="r"]{
 }
     
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 
     iframe{
-        width: auto;
-        height: auto;
+        width: 400px;
+        height: 350px;
+       
     }
     .site-header.lp-inicio{
         background-position: center;
@@ -863,6 +864,94 @@ input[name="r"]{
         margin-bottom: 2rem;
         top: 0px;
     }
+
+    .contenido-intro{
+        margin: 0 3rem;
+    }
+    
+    .contenido-intro h2{
+        line-height: 1;
+        margin-bottom: 3rem;
+    }
+
+    .contenido-intro p{
+        margin-bottom: 1rem;
+    }
+
+    .middle{
+        height: 300px
+        
+    }
+
+    .slides{
+       
+    }
+
+    .slider-texto {
+        margin-left: 2rem;
+        margin-top: 2rem;
+       
+        
+    }
+
+    .slider-texto h2 {
+        font-size: 2rem;
+        margin-left: 1.2rem;
+        
+    }
+
+    .slider-texto p {
+        font-size: 1.2rem;
+        text-align: center;
+        display: inline-block;
+        max-width: 21%;
+        max-height: auto;
+      
+        
+        
+       
+    }
+
+    .nav-slides {
+        top: auto;
+        left: auto;
+    }
+
+    .img-multimedia{
+        flex-basis: calc(33%);
+    }
+
+    .img-multimedia img{
+        width: auto;
+        height: 90px;
+    }
+    .img-multimedia-centro img{
+        width: auto;
+        height: auto;
+    }
+
+    .contenedor-footer{
+        display: inline-block;
+       
+    }
+
+    .contenedor-footer p{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 7rem;
+        
+    }
+
+    .footer{
+        text-align: center;
+        margin-left: 7rem;
+        margin-bottom:1rem;
+    }
+    
+    .footer a{
+        padding-right: 1.5rem;
+    }
+
  }
 
 
