@@ -313,6 +313,10 @@ h4{
     color: white;
     text-decoration: none;
 }
+.texto-entrada a:hover{
+    color: rgb(247, 101, 4);
+    text-decoration: none;
+}
 .texto-entrada h4{
     margin: 0;
     line-height: 1.4;
@@ -952,9 +956,56 @@ input[name="r"]{
         padding-right: 1.5rem;
     }
 
- }
+ 
+
+ .contenido-blog h1 {
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 3rem;
+    color: white;
+    text-align: center;
+    margin: 5rem 0 10rem 0;
+
+}
+
+.pagina-blog{
+    display: block;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.pagina-blog:last-of-type{
+    margin-bottom: 0;
+}
 
 
+.pagina-blog .imagen {
+    text-align: center;
+}
+
+.pagina-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+    text-align: center;
+    padding: 2rem ;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.texto-entrada h4{
+    margin: 1rem;
+    line-height: 1.4;
+}
+
+.texto-entrada h4::after{
+    content: '';
+    display: block;
+    width: 35rem;
+    height: .5rem;
+    background-color: chartreuse;
+    
+    margin-top: 1rem;
+}
     /*
 position: absolute;
 top: 50%;
@@ -962,5 +1013,5 @@ left: 50%;
 transform: translate(-50%,-50%);
 
 
-
 */
+}
