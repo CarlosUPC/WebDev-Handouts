@@ -423,7 +423,7 @@ navegacion-footer a{
 
 .texto-nosotros p{
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .titulo-nosotros {
@@ -1010,15 +1010,168 @@ input[name="r"]{
     width: 35rem;
     height: .5rem;
     background-color: chartreuse;
-    
+    text-align: center;
     margin-top: 1rem;
 }
-    /*
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
 
-
-*/
+/*** MAIN WEBPAGE ****/
+.entrada-blog{
+    display: block;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
+
+.entrada-blog .imagen {
+    flex-basis: 25%;
+    margin-right: 0rem;
+    text-align: center;
+
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.texto-entrada a{
+    color: white;
+    text-decoration: none;
+}
+.texto-entrada a:hover{
+    color: rgb(247, 101, 4);
+    text-decoration: none;
+}
+
+
+
+/********************************/
+
+.seccion-inferior {
+    display: block;
+    justify-content: center;
+}   
+    
+.contenedor-press{
+    background-color: rgb(52, 77, 87);
+    font-size: 2.6rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 3rem;
+    margin-left: 0rem;
+}
+
+.contenedor-press blockquote{
+    position: relative;
+    padding-left: 0rem;
+    font-weight: 200;
+}
+
+}
+
+
+
+
+/*
+
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+
+.seccion-inferior .press{
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+
+.entrada-blog .imagen {
+    flex-basis: 25%;
+    margin-right: 4rem;
+
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+    color: white;
+    font-size: 1.8rem;
+}
+
+.texto-entrada a{
+    color: white;
+    text-decoration: none;
+}
+.texto-entrada a:hover{
+    color: rgb(247, 101, 4);
+    text-decoration: none;
+}
+.texto-entrada h4{
+    margin: 0;
+    line-height: 1.4;
+}
+
+.texto-entrada h4::after{
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: chartreuse;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: darkgoldenrod;
+}
+
+.titulo-blog,
+.titulo-press{
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato';
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.contenedor-press{
+    background-color: rgb(52, 77, 87);
+    font-size: 2.4rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 1.5rem;
+    margin-left: 4rem;
+}
+
+.contenedor-press p {
+    text-align: right;
+    padding-right: 2rem;
+}
+.contenedor-press blockquote::before{
+    content: '';
+    background-image: url();
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+}
+
+.contenedor-press blockquote{
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 100;
+}
+*/
