@@ -1069,6 +1069,137 @@ input[name="r"]{
     font-weight: 200;
 }
 
+.imagen-trabajo{
+    background-image: url(../img/job-banner.jpg);
+    
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contenido-trabajo {
+    flex: 1;
+    color: white;
+}
+
+.contenido-trabajo p {
+    font-size: 1.6rem;
+}
+
+.contenido-trabajo h2 {
+    
+    line-height: 4rem;
+}
+
+.contenedor-juegos{
+    display: inline;
+    justify-content: center;
+   
+}
+
+.juego {
+   
+  
+   flex-basis: calc(22% - 1rem);
+   border:1px solid #b5b5b5;
+   background-color: #5f5f5f;
+    margin-right: 0rem;
+
+}
+
+.sites-encabezado{
+   
+    text-align: center;
+    margin-bottom: 2.8rem;
+    margin-top: 8rem;
+    font-family: 'Lato';
+    font-size: 3.6rem;
+    color: white;
+    line-height: 4rem;
+}
+
+.iconos-nosotros {
+    display: inline;
+    justify-content: center;
+}
+
+.icono {
+    flex-basis: calc(33% - 1rem);
+    text-align: center;  
+
+
+}
+
+.icono h3{
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 3rem;
+    color: white;
+}
+
+.sites-info{
+    text-align: center;
+    margin-bottom: 8rem;
+    font-family: 'Lato';
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+    padding: 1.5rem;
+}
+
+.titulo {
+    padding-bottom: 10rem;
+    text-align: center;
+   
+}
+
+.titulo h1 {
+    font-size: 4.5rem;
+   
+}
+
+.titulo h2 {
+    line-height: 3rem;
+   
+}
+
+.titulo h2 span {
+   color: orangered; 
+   
+}
+
+.titulo a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    
+    font-family:  'Oswald';
+
+   
+    width: 20%;
+    padding: 2.5rem ;
+   
+    
+}
+.boton-intro{
+   
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(255, 0, 0, 0.7);
+    
+}
+
 }
 
 
@@ -1173,5 +1304,73 @@ input[name="r"]{
     position: relative;
     padding-left: 5rem;
     font-weight: 100;
+}
+
+.imagen-trabajo{
+    background-image: url(../img/job-banner.jpg);
+    
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-trabajo {
+    flex: 1;
+    color: white;
+}
+
+.contenido-trabajo p {
+    font-size: 1.8rem;
+}
+
+.contenedor-juegos{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.juego {
+   
+  
+   flex-basis: calc(22% - 1rem);
+   border:1px solid #b5b5b5;
+   background-color: #5f5f5f;
+    margin-right: 2rem;
+
+}
+
+.juego:last-of-type{
+    margin-right: 0;
+}
+
+.contenido-juego{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+.contenido-juego p{
+    font-size: 1.8rem;
+}
+
+.contenido-juego h3,
+.contenido-juego p{
+    line-height: 1;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.precio {
+    color: #71b171;
+    font-weight: 700;
+    padding-top: 2rem;
+
+}
+
+.ver-todos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
 */
