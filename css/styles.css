@@ -351,16 +351,17 @@ h4{
 }
 
 .contenedor-press{
-    background-color: #71b100;
+    background-color: rgb(52, 77, 87);
     font-size: 2.4rem;
-    padding: 2rem;
+    padding: 1rem;
     color: white;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     margin-left: 4rem;
 }
 
 .contenedor-press p {
     text-align: right;
+    padding-right: 2rem;
 }
 .contenedor-press blockquote::before{
     content: '';
@@ -374,7 +375,7 @@ h4{
 .contenedor-press blockquote{
     position: relative;
     padding-left: 5rem;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 
